@@ -15,7 +15,19 @@
   </ion-header>
 
   <div id="container">
+    <!--
     <strong class="capitalize">{{ folder }}</strong>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    -->
+    <ion-button color="primary">Primary</ion-button>
+    <ion-button color="secondary">Secondary</ion-button>
+    <ion-button color="tertiary">Tertiary</ion-button>
+    <ion-button expand="full">Full Button</ion-button>
+<ion-button expand="block">
+  <ion-icon name="arrow-back-circle-outline" slot="start"></ion-icon>
+  Block Button</ion-button>
+<ion-button expand="full" fill="outline">Outline + Full</ion-button>
+<ion-button expand="block" fill="outline">Outline + Block</ion-button>
+<ion-button shape="round" fill="outline">Outline + Round</ion-button>
   </div>
 </ion-content>
